@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Todo extends Model
 {
-    protected $fillabe = [
-        'tittle',
+    protected $fillable = [
+        'title',
         'user_id',
         'is_complete',
     ];
